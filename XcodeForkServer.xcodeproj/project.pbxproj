@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		79B709202466693C00A54ABE /* XcodeForkServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeForkServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B709232466693C00A54ABE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79B7092A2466698C00A54ABE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		79B7092B246669B100A54ABE /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				79B709232466693C00A54ABE /* main.swift */,
+				79B7092A2466698C00A54ABE /* .gitignore */,
+				79B7092B246669B100A54ABE /* .gitattributes */,
 			);
 			path = XcodeForkServer;
 			sourceTree = "<group>";
@@ -98,7 +102,7 @@
 				};
 			};
 			buildConfigurationList = 79B7091B2466693C00A54ABE /* Build configuration list for PBXProject "XcodeForkServer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
